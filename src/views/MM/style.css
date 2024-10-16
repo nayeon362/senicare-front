@@ -1,0 +1,50 @@
+#mm-wrapper .post-patch-box {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+
+    border-radius: 8px;
+    border: 1px solid rgba(238,238,238,1);
+    padding: 24px;
+
+    background-color: rgba(255,255,255,1);
+}
+
+#mm-wrapper .post-patch-input-container {
+    flex: 1;
+
+    display: flex;
+    gap: 20px;
+}
+
+#mm-wrapper .input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 200px;
+}
+
+#mm-wrapper .input-label {
+    color: rgba(64, 64, 64, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#mm-wrapper .td-tool-number,
+#mm-wrapper .td-name,
+#mm-wrapper .td-count {
+    width: 100px;
+
+    text-align: center;
+}
+
+#mm-wrapper .td-purpose {
+    width: 300px;
+
+    text-align: center;
+}
+
+#mm-wrapper .tr .td-purpose {
+    text-align: left;
+}
